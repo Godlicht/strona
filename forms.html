@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+    <button><h4><a href="index.html">Strona główna</a></h4></button>
+    <button><h4><a href="table.html">Tabela</a></h4></button>
+    <form>
+        <label>Imię</label><br>
+        <input type="text" required><br>
+        
+        <label>Nazwisko</label><br>
+        <input type="text" required><br>
+        
+        <label>Ulica</label><br>
+        <input type="text" required><br>
+        
+        <label>Drzwi</label><br>
+        <input type="text" required><br>
+        
+        <label>Mieszkanie</label><br>
+        <input type="text" required><br>
+        
+        <label>Miasto</label><br>
+        <input type="text" required><br>
+        
+        <label>Data urodzenia:</label><br>
+        <input type="date" required><br>
+        
+        <label>Numer telefonu:</label><br>
+        <input type="tel" required><br>
+        
+        <label>Adres e-mail:</label><br>
+        <input type="email" required><br>
+        
+        <label>Płeć:</label><br>
+        <div class="gender">
+            <input type="radio" id="male" name="gender" required>
+            <label for="male">Mężczyzna</label>
+            
+            <input type="radio" id="female" name="gender">
+            <label for="female">Kobieta</label>
+        </div>
+        
+        <label>Prawo jazdy:</label><br>
+        <div class="driving-license">
+            <input type="checkbox" id="driving-license">
+            <label for="driving-license">Posiadam prawo jazdy</label>
+        </div>
+        
+        <label for="password">Hasło:</label><br>
+        <input type="password" required><br>
+        
+        <label for="comments">Uwagi:</label><br>
+        <textarea rows="4"></textarea><br>
+        <button type="submit">Prześlij</button>
+    </form>
+</body>
+</html>
